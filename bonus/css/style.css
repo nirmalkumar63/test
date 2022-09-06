@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+.btn{
+    padding: 5px 20px;
+}
+
+/* header */
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+/* header SX */
+header .header-sx{
+    float: left;
+    width: 50%;
+}
+.container-logo{
+    display: inline-block;
+}
+header .header-sx img{
+    padding-left: 40px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+header .header-sx ul{
+    display: inline-block;
+    margin: 0 50px;
+    line-height: 77px;
+    vertical-align: middle;
+    height: 77px;
+}
+header .header-sx li{
+    display: inline-block;
+    padding: 0 15px;
+}
+header .header-sx li:hover{
+    border-bottom: solid 3px rgb(0,97,255);
+}
+header .header-sx li a{
+    display: inline-block;
+    height: 100%;
+}
+
+/* header DX */
+header .header-dx{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+header .header-dx ul{
+    line-height: 77px;
+    display: inline-block;
+}
+header .header-dx li{
+    float: left;
+    padding:0 15px;
+    list-style: none;
+}
+header .header-dx li:hover{
+    border-bottom: solid 3px rgb(0,97,255);
+}
+header .header-dx li a{
+    display: inline-block;
+    height: 100%;
+}
+header .header-dx .container-btn{
+    float: right;
+    margin-right: 30px;
+    line-height: 80px;
+}
+.none{
+    background-color: none;
+    color: black;
+}
+.none:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.blue{
+    background-color: rgb(0,97,255);
+    color: white;
+}
+.blue:hover{
+    background-color: rgb(0, 76, 197);
+    color: white;
+}
+
+/* menu tendina header DX */
+#tendina-lista{
+    display: none;
+}
+#tendina-lista li{
+    display: block;
+    list-style: none;
+    background-color: white;
+    width: calc(100% / 3 -50px);
+    padding: 0 5px;
+    margin: 0 0px;
+}
+#tendina-lista li a:hover{
+    background-color: rgb(216, 216, 216);
+}
+#tendina:hover #tendina-lista{
+    display: block;
+}
+#tendina{
+    border-bottom: none;
+}
+
+
+/* fine header */
+
+/* jumbotron */
+#jumbo{
+    background-color: rgb(180,208,231);
+    margin-top: 80px;
+}
+.horizontal-center{
+    width: 80%;
+    margin: auto;
+}
+#jumbo .horizontal-center{
+    position: relative;
+    bottom: -150px;
+}
+#jumbo .horizontal-center h1{
+    font-size: 80px;
+    padding: 50px 0;
+}
+#jumbo .horizontal-center p{
+    width: 30%;
+    padding-bottom: 50px;
+}
+#jumbo .horizontal-center .containerImgJumbo{
+    width:70%;
+    float: right;
+}
+#jumbo .horizontal-center img{
+    max-width: 100%;
+}
+#jumbo .horizontal-center .container-btn div{
+    margin: 30px 0;
+}
+#jumbo .horizontal-center .frecciaGiu{
+    font-size: 50px;
+    margin-top: 50px;
+}
+/* fine jumbotron */
+
+/* sezione pacchetti acquistabili */
+.horizontal-center-2{
+    width: 65%;
+    margin: auto;
+}
+.pacchetti{
+    margin-top: 300px;
+}
+.pacchetti .horizontal-center-2 h2{
+    font-size: 45px;
+    padding: 50px 0;
+}
+.pacchetti .horizontal-center-2 .fatturazioni input{
+    margin-right:10px;
+    margin-bottom: 50px;
+}
+.pacchetti .horizontal-center-2 .fatturazioni span{
+    padding-right: 20px;
+}
+/* pacchetti acquistabili */
+.aside, .centrale{
+    float: left;
+    width: calc(100% / 3 - 34px);
+    height: 100%;
+}
+.cnt-pack-top{
+    height: 2000px;
+    min-height: 1050px;
+    max-height: 1250px;
+}
+.pacchetto{
+    border: solid 1px grey;
+}
+.centrale{
+    margin: 0 50px;
+}
+.pacchetto .pacchetto-header{
+    border-bottom: solid 1px grey;
+    text-align: center;
+    padding: 10px 0;
+}
+.pacchetto .pacchetto-header span{
+    margin-left: 5px;
+}
+.pacchetto .pacchetto-main{
+    padding: 30px 30px;
+}
+.pacchetto .pacchetto-main .pacchetto-nome{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* pacchetto main */
+.pacchetto .pacchetto-main .pacchetto-prezzo{
+    margin-bottom: 70px;
+}
+.pacchetto .pacchetto-main .pacchetto-prezzo section{
+    margin-top: 10px;
+    color: grey;
+    font-weight: 600;
+}
+/* pacchetto contenuto */
+.pacchetto .pacchetto-main .pacchetto-contenuto .cnt{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.pacchetto .pacchetto-main .pacchetto-contenuto .cnt span{
+    float: left;
+    width: 90%;
+}
+.pacchetto .pacchetto-main .pacchetto-contenuto .cnt i{
+    float: left;
+    padding-right: 5px;
+    padding-top: 3px;
+
+}
+/* pacchetto btn e acquista ora */
+.pacchetto .pacchetto-main .container-btn{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pacchetto .pacchetto-main .container-btn .btn{
+    width: 100%;
+    display: inline-block;
+}
+.pacchetto .pacchetto-main .acq-ora{
+    padding-bottom: 30px;
+}
+.pacchetto .pacchetto-main .acq-ora a{
+    text-decoration: underline;
+    color: rgb(0,97,255);
+}
+.pacchetto .pacchetto-main .acq-ora span{
+    padding-bottom: 30px;
+    border-bottom: solid 1px grey;
+}
+/* pacchetto punti salienti */
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti{
+    margin: 40px 0;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul{
+    margin-top: 20px;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li i{
+    padding-right: 5px;
+    color:rgb(0,97,255) ;
+    float: left;
+    padding-top: 1%;
+    width: 6%;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li span{
+    float: left;
+    width: 94%;
+}
+/* pacchetto finale */
+.pacchetto-finale{
+    margin-top: 50px;
+}
+.pacchetto-finale p{
+    margin-top: 40px;
+    font-size: 15px;
+}
+.pacchetto-finale .pacchetto-nome{
+    float: left;
+    width: 75%;
+}
+.pacchetto-finale #container-btn-finale{
+    width: 25%;
+    margin-top: 0px;
+    float: right;
+}
+.pacchetti{
+    margin-bottom: 10%;
+}
+/* fine sezione pacchetti acquistabili */
+
+/* sezione partner */
+.containerImg-partner{
+    width: 48%;
+    float: left;
+}
+.containerImg-partner img{
+    max-width: 100%;
+}
+.containerText{
+    padding-top: 40px;
+    width: 48%;
+    float: right;
+}
+.containerText h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.containerText p{
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+.white{
+    border: solid 1px black;
+    padding: 9px 20px;
+    background-color: white;
+}
+.white:hover{
+    background-color: rgb(219, 219, 219);
+}
+/* fine sezione partner */
+
+/* sezione schede 3x2 */
+.schede{
+    margin: 6% 0;
+}
+.titolo-schede{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.scheda{
+    width: calc(100% / 3 - 50px);
+    float: left;
+}
+.mid{
+    margin: 0 75px;
+}
+.scheda .containerImg-scheda img{
+    max-width: 100%;
+}
+.scheda .containerTxt-scheda h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.row-up{
+    margin-bottom: 100px;
+}
+/* fine sezione schede 3x2 */
+
+/* sezione team affiliati */
+.section-affiliates-title h2{
+    font-size: 40px;
+}
+.section-affiliates-title div{
+    margin: 3.5% 0;
+}
+.section-affiliates-title a{
+    color: rgb(0,97,255);
+    text-decoration: underline;
+}
+/* blocchi affiliati */
+.container-affiliati{
+    height: 600px;
+}
+.affiliato{
+    position: relative;
+    width:50%;
+    height: 300px;
+    float: left;
+}
+.affiliato img{
+    max-width: 50%;
+    max-height: 50%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+.affiliato-sx{
+    width: 30%;
+    float: left;
+}
+.affiliato-dx{
+    width: 30%;
+    float: right;
+}
+/* note centrale affiliati */
+.affiliato-note{
+    padding: 3%;
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+.affiliato-note-img {
+    width: 30%;
+    height: auto;
+}
+.affiliato-note-img img{
+    max-width: 80%;
+}
+.affiliato-note p {
+    margin-top: 20%;
+    font-size: 20px;
+}
+.affiliato-note p span{
+    border-top: solid 1px grey;
+    padding-top: 10%;
+}
+.cit{
+    margin-top: 5%;
+}
+/* colori schede affiliati */
+.desi{
+    background-color: rgb(162,211,155);
+}
+.asu{
+    background-color: rgb(97,8,43);
+}
+.uf{
+    background-color:rgb(0,147,206)    ;
+}
+.topps{
+    background-color:rgb(255,28,28)
+    ;
+}
+.wbr{
+    background-color: rgb(213,0,31)
+    ;
+}
+.hearst{
+    background-color: rgb(180,208,231)
+    ;
+}
+.lonley{
+    background-color:rgb(13,36,129)
+    ;
+}
+.clear{
+    background-color: rgb(255,216,48)
+    ;
+}
+.affiliato:hover{
+    border: solid 10px rgba(255, 255, 255, 0.438);
+    cursor: pointer;
+}
+
+/* sezione banner prova gratuita */
+.prova-free-banner{
+    background-color: #b4d0e7;
+    color: #61082b;
+    padding: 8% 0;
+}
+.prova-free-banner h2{
+    font-size: 50px;
+    font-weight: 800;
+    width: 50%;
+    float: left;
+}
+.prova-free-banner a{
+    float: right;
+    border: none;
+    width: 30%;
+    text-align: center;
+}
+/* fine sezione banner prova gratuita */
+
+/* sezione FAQ */
+.container-faq{
+    padding: 8% 0;
+}
+.container-faq h3{
+    font-size: 35px;
+    border-bottom: 1px grey solid;
+    padding-bottom: 5%;
+}
+.container-faq .domanda{
+    font-size: 20px;
+    float: left;
+    padding: 4% 0;
+    width: 98%;
+
+}
+.container-faq i{
+    float: right;
+    padding: 3% 0;
+    width: 2%;
+}
+.container-domande-faq{
+    border-bottom: 1px grey solid;
+    height:100px;
+    overflow: hidden;
+}
+
+/* hover FAQ */
+.container-domande-faq:hover{
+    height: 300px;
+    cursor: pointer;
+}
+.container-domande-faq:hover .frecciaGiuFaq{
+    display: none;
+}
+
+/* fine sezione FAQ */
+
+/* sezione footer */
+.footer-main{
+    background-color: black;
+    color: white;
+    padding: 5% 0;
+}
+/* footer nav */
+.col-footer{
+    margin-right: 50px;
+    width: calc(100% / 5 - 50px);
+    float: left;
+}
+.col-footer h3{
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+.col-footer li{
+    list-style: none;
+    margin: 3% 0;
+}
+.col-footer a{
+    color: white;
+}
+/* footer lingua */
+.lingua{
+    color: grey;
+    margin-top: 8%;
+    padding-top: 3%;
+    border-top: solid white 1px;
+    width: 10%;
+}
+.lingua i {
+    font-size: 15px;
+}
+.lingua a{
+    color: grey;
+}
+/* fine sezione footer */
+

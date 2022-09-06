@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+.btn{
+    padding: 5px 20px;
+}
+
+
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+
+header .header-sx{
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.container-logo{
+    display: inline-block;
+    margin: 0%;
+   text-align: left;
+}
+header .header-sx img{
+    padding-left: 0px;
+    margin: 0;
+    padding-top: 0;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+   header div .one{
+    padding: 10px;
+    font-size: 30px;
+   }
+   
+    
+
+header .header-sx ul{
+    display: inline-block;
+    margin: 0 50px;
+    line-height: 77px;
+    vertical-align: middle;
+    height: 77px;
+    
+}
+header .header-sx li{
+    display: inline-block;
+    padding: 0 15px;
+}
+header .header-sx li:hover{
+    background: rgba(0, 0, 0, 0.247);
+}
+
+
+header .header-dx{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+header .header-dx ul{
+    line-height: 77px;
+    display: inline-block;
+}
+header .header-dx li{
+    display: inline-block;
+    padding:0 15px;
+}
+header .header-dx li:hover{
+    background: rgba(0, 0, 0, 0.247);
+}
+header .header-dx .container-btn{
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.dropdownlist-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(250, 250, 250, 1);
+    width: 300px;
+    
+    z-index: 1;
+    }
+    .dropdownlist-content a {
+   font-size: 10px;
+    padding: 10px;
+    display: block;
+    line-height: 20px;
+
+    }
+    .dropdownlist-content a:hover {background-color: lightcyan;}
+    .dropdowndemo:hover .dropdownlist-content {display: block;}
+    
+.none{
+    background-color: none;
+    color: black;
+}
+.none:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.blue{
+    background-color: rgb(0,97,255);
+    color: white;
+}
+.blue:hover{
+    background-color: rgb(0, 76, 197);
+    color: white;
+}
+
+
+#jumbo{
+    background-color: rgba(0,0,0,1);
+    margin-top: 73px;
+    height: 00%;
+}
+
+.horizontal-center{
+    width: 80%;
+    margin: auto;
+}
+#jumbo .horizontal-center{
+    position: relative;
+    bottom: 50px;
+    top: 50px;
+}
+#jumbo .horizontal-center h2{
+    text-align: center;
+    color: whitesmoke;
+    
+}
+#jumbo a{
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+}
+#jumbo .horizontal-center p{
+    text-align: center;
+    padding-bottom: 50px;
+    color: whitesmoke;
+}
+
+#jumbo .horizontal-center img{
+    width: 100%;
+}
+
+.container{
+    display: inline-block;
+    width: 300px;
+    padding: 30px;
+    
+    
+}
+
+
+
+
+
+.horizontal-center-2{
+    width: 65%;
+    margin: auto;
+}
+.pacchetti{
+    height: 30%;
+   padding: 100px;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+}
+
+
+.two{
+    width: 100%;
+    height: 120%;
+   border-bottom: solid;
+}
+.left{
+    width: 50%;
+   float: left;
+    padding: 40px;
+    line-height: 100px;
+}
+.right img{
+    
+    margin: 1px;
+    padding: 80px;
+}
+.right {
+   width: 50%;
+    float: right;
+  padding: 200px;
+
+    background: #61082b;
+    
+}
+.left .right{
+    display: inline-block;
+}
+
+
+.container1 {
+   display: inline-block;
+   padding: 10px; 
+   width: 30%;
+   text-align: left;
+   line-height: 25px;
+   position: relative;
+   left: 20%;
+  background-color: whitesmoke;
+}
+
+.schede h1{
+    padding: 80px;
+    text-align: center;
+     
+}
+.container1 img{
+    height: 150px;
+    width: 460px;
+    
+}
+.container1 p{
+    
+    width: 460px;
+    height: 100px;
+    
+}
+.container1 p,.container1 button{
+    background-color:   rgba(250, 250, 250, 0.247); ;
+}
+.container1 button{
+    cursor: pointer;
+    width: 350px;
+    position: relative;
+    left: 10px;
+    height: 50px;
+    text-align: left;
+    background: blue;
+    border: none;
+}
+.container2 img{
+    height: 150px;
+    width: 400px;
+    
+}
+.container2 p{
+    
+    width: 400px;
+    
+}
+.container2 button{
+    cursor: pointer;
+    width: 350px;
+    position: relative;
+    left: 10px;
+    height: 50px;
+    text-align: left;
+    background: blue;
+    border: none;
+}
+.container2 {
+    display: inline-block;
+    padding: 10px; 
+    width: 30%;
+    text-align: left;
+    line-height: 25px;
+   background-color: whitesmoke;
+   position: relative;
+   left: 20%;
+ }
+ .schede{
+    background-color: rgba(0, 0, 0, 0.247);
+ }
+ .small-icons{
+    display: flex;
+    position: relative;
+    left: 17%;
+    
+    width: 60%;
+ }
+ .small-icons img{
+    width: 50px;
+ }
+ .container3{
+    line-height: 50px;
+   margin: 30px;
+   padding-bottom: 50px;
+    width: 100%;
+ }
+ .container3 p{
+    line-height: 20px;
+ }
+
+
+
+.swipermain{
+    background-color: rgba(0,0,0,0.5);
+}
+.swiper {
+    width: 80%;
+    height: 500%;
+    background: rgba(0,0,0,0.5);
+   
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    display: flex;
+  }
+
+  .swiper-slide img {
+    display: inline-block ;
+    width: 50%;
+    height: 500px;
+  }
+  .container4{
+    width: 50%;
+    height: 500px;
+    background: #61082b;
+    padding: 20px;
+    color: whitesmoke;
+    
+  }
+  
+  .container4 a{
+   color: whitesmoke;
+   position: relative;
+   top: 100px;
+   
+  }
+  .container4 a:hover{
+    text-decoration: underline;
+  }
+  .container4 footer{
+    position: absolute;
+   top: 400px;
+   left: 700px;
+  }
+
+.footer-main{
+    background-color: black;
+    color: white;
+    padding: 5% 0;
+}
+
+.col-footer{
+    margin-right: 50px;
+    width: calc(100% / 5 - 50px);
+    float: left;
+}
+.col-footer h3{
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+.col-footer li{
+    list-style: none;
+    margin: 3% 0;
+}
+.col-footer a{
+    color: white;
+}
+
+.lingua{
+    color: grey;
+    margin-top: 8%;
+    padding-top: 3%;
+    border-top: solid white 1px;
+    width: 10%;
+}
+.lingua i {
+    font-size: 15px;
+}
+.lingua a{
+    color: grey;
+}

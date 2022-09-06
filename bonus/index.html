@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dropbox</title>
+</head>
+<body>
+    <!-- header con position fixed -->
+    <header class="clearfix">
+
+        <div class="header-sx">
+            <a href="#" class="container-logo">
+                <img src="img/logo-small.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="#">Perche Dropbox?</a></li>
+                <li><a href="#">Funzioni</a></li>
+                <li><a href="#">Piani e prezzi</a></li>
+            </ul>  
+        </div>
+
+        <div class="header-dx">
+            <ul>
+                <li id="tendina"><a href="#">Supporto</a>
+                    <ul id="tendina-lista">
+                        <li><a href="">via mail</a></li>
+                        <li><a href="">via chat</a></li>
+                        <li><a href="">via telefono</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contatta l'ufficio vendite</a></li>
+            </ul>
+
+            <div class="container-btn">
+                <a href="#" class="btn none">Accedi</a>
+            </div>
+            <div class="container-btn">
+                <a href="#" class="btn blue">Inizia</a>
+            </div>
+        </div>
+      
+
+    </header>
+
+    <!-- jumbotron -->
+    <section id="jumbo">
+        <div class="horizontal-center clearfix">
+            <h1>
+                Tutto cio che ti serve per il lavoro, in un unico posto
+            </h1>
+            <div class="containerImgJumbo">
+                <img src="img/jumbo.png" alt="img jumbotron">
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laboriosam dolores fuga magnam beatae odio quisquam, suscipit cumque vel voluptatem tenetur optio debitis saepe aliquid amet reiciendis voluptatum blanditiis recusandae.
+            </p>
+
+
+
+            <div class="container-btn">
+                <a href="#" class="btn blue">
+                    Inizia la tua prova gratuita*
+                </a>
+                <div>
+                    *Annulla in qualsiasi momento
+                </div>
+            </div>
+
+            <div class="frecciaGiu">
+                <a href="#plan"><i class="fas fa-arrow-down"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- corpo della pagina -->
+    <main>
+        <!-- section pacchetti in vendita -->
+        <section class="pacchetti" id="plan" >
+            <!-- centratura al 65% -->
+            <div class="horizontal-center-2">
+                <!-- titolo pacchetti -->
+                <h2>
+                    Trova il piano Dropbox Buisness che fa per te
+                </h2>
+                <!-- input radio -->
+                <div class="fatturazioni ">
+                    <form action="">
+                        <input type="radio"><span>Fatturazione mensile</span>
+                        <input type="radio"><span>Fatturazione mensile</span>
+                    </form>
+                </div>
+                <!-- contenitore dei pacchetti -->
+                <div class="containerPacchetti cnt-pack-top clearfix">
+
+                    <!-- pacchetto numero 1 LATERALE SINISTRO-->
+                    <div class="pacchetto aside">
+                        <!-- titolo del pacchetto -->
+                        <h4 class="pacchetto-header">
+                            <i class="far fa-user"></i><span>Singolo</span> 
+                        </h4>
+                        <!-- corpo centrale del pacchetto -->
+                        <div class="pacchetto-main">
+                            <!-- nome del pacchetto -->
+                            <h3 class="pacchetto-nome">
+                                Professional
+                            </h3>
+                            <!-- prezzo del pacchetto -->
+                            <h4 class="pacchetto-prezzo">
+                                19,99 &euro;
+                                <section>
+                                    /mese
+                                </section>
+                            </h4>
+                            <!-- contenuto del pacchetto -->
+                            <div class="pacchetto-contenuto">
+                                <div class="cnt utente">
+                                    <i class="far fa-user"></i>
+                                    1 utente
+                                </div>
+                                <div class="cnt spazio">
+                                    <i class="far fa-folder"></i>
+                                    3 TB di spazio di archiviazione sicuro
+                                </div>
+                                <div class="cnt funzioni clearfix">
+                                    <i class="fas fa-pencil-alt"></i>
+                                   <span>
+                                    Funzioni di produttivita premium e condivisione file semplice e sicura
+                                   </span>
+                                </div>
+                            </div>
+                            <!-- bottone del pacchetto -->
+                            <div class="container-btn">
+                                <a href="#" class="btn blue">Prova gratis per 30 giorni</a>
+                            </div>
+                            <!-- link acquista ora del pacchetto -->
+                            <div class="acq-ora">
+                                <span>oppure </span><a href="#">acquista ora</a>
+                            </div>
+                            <!-- punti salienti del pacchetto -->
+                            <div class="pacchetto-puntiSalienti corto">
+                                <h4>
+                                    Punti salienti del piano
+                                </h4>
+                                <ul>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Inviare file fino a 100 GB con Dropbox Transfert</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Cartelle offline su dispositivi mobili</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Pulizia remota dell'account</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Filgrana documento</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Assistenza prioritaria via email e chat</span></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- pacchetto numero 2 CENTRALE -->
+                    <div class="pacchetto centrale">
+                        <!-- titolo del pacchetto -->
+                        <h4 class="pacchetto-header">
+                            <i class="far fa-building"></i><span>Team</span> 
+                        </h4>
+                        <!-- corpo centrale del pacchetto -->
+                        <div class="pacchetto-main">
+                            <!-- nome del pacchetto -->
+                            <h3 class="pacchetto-nome">
+                                Standard
+                            </h3>
+                            <!-- prezzo del pacchetto -->
+                            <h4 class="pacchetto-prezzo">
+                                19,99 &euro;
+                                <section>
+                                    / utente/ mese, a partire da 3 utenti
+                                </section>
+                            </h4>
+                            <!-- contenuto del pacchetto -->
+                            <div class="pacchetto-contenuto">
+                                <div class="cnt utente">
+                                    <i class="fas fa-user-plus"></i>
+                                    1 utente
+                                </div>
+                                <div class="cnt spazio">
+                                    <i class="far fa-folder"></i>
+                                    3 TB di spazio di archiviazione sicuro
+                                </div>
+                                <div class="cnt funzioni clearfix">
+                                    <i class="far fa-smile"></i>
+                                    <span>
+                                        Funzioni di produttivita premium e condivisione file semplice e sicura
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- bottone del pacchetto -->
+                            <div class="container-btn">
+                                <a href="#" class="btn blue">Prova gratis per 30 giorni</a>
+                            </div>
+                            <!-- link acquista ora del pacchetto -->
+                            <div class="acq-ora">
+                                <span>oppure </span><a href="#">acquista ora</a>
+                            </div>
+                            <!-- punti salienti del pacchetto -->
+                            <div class="pacchetto-puntiSalienti">
+                                <h4>
+                                    Punti salienti del piano
+                                </h4>
+                                <ul>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Inviare file fino a 100 GB con Dropbox Transfert</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Cartelle offline su dispositivi mobili</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Pulizia remota dell'account</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Filgrana documento</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Assistenza prioritaria via email e chat</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Assistenza prioritaria via email e chat</span></li>   
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- pacchetto numero 3 LATERALE DESTRO-->
+                    <div class="pacchetto aside">
+                        <!-- titolo del pacchetto -->
+                        <h4 class="pacchetto-header">
+                            <i class="far fa-building"></i><span>Team</span> 
+                        </h4>
+                        <!-- corpo centrale del pacchetto -->
+                        <div class="pacchetto-main">
+                            <!-- nome del pacchetto -->
+                            <h3 class="pacchetto-nome">
+                                Advanced
+                            </h3>
+                            <!-- prezzo del pacchetto -->
+                            <h4 class="pacchetto-prezzo">
+                                19,99 &euro;
+                                <section>
+                                    / utente/ mese, a partire da 3 utenti
+                                </section>
+                            </h4>
+                            <!-- contenuto del pacchetto -->
+                            <div class="pacchetto-contenuto">
+                                <div class="cnt utente">
+                                    <i class="fas fa-user-plus"></i>
+                                    1 utente
+                                </div>
+                                <div class="cnt spazio">
+                                    <i class="far fa-smile"></i>
+                                    3 TB di spazio di archiviazione sicuro
+                                </div>
+                                <div class="cnt funzioni clearfix">
+                                    <i class="fas fa-pencil-alt"></i>
+                                    <span>
+                                        Funzioni di produttivita premium e condivisione file semplice e sicura
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- bottone del pacchetto -->
+                            <div class="container-btn">
+                                <a href="#" class="btn blue">Prova gratis per 30 giorni</a>
+                            </div>
+                            <!-- link acquista ora del pacchetto -->
+                            <div class="acq-ora">
+                                <span>oppure </span><a href="#">acquista ora</a>
+                            </div>
+                            <!-- punti salienti del pacchetto -->
+                            <div class="pacchetto-puntiSalienti">
+                                <h4>
+                                    Punti salienti del piano
+                                </h4>
+                                <ul>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Inviare file fino a 100 GB con Dropbox Transfert</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Cartelle offline su dispositivi mobili</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Pulizia remota dell'account</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Filgrana documento</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Assistenza prioritaria via email e chat</span></li>
+                                    <li class="clearfix"><i class="fas fa-check "></i><span>Assistenza prioritaria via email e chat</span></li>   
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- contenitore ultimo pacchetto -->
+                <div class="containerPacchetti clearfix">
+                    <!-- pacchetto numero 4 FINALE -->
+                    <div class="pacchetto pacchetto-finale">
+                        <!-- titolo del pacchetto -->
+                        <h4 class="pacchetto-header">
+                            <i class="far fa-building"></i><span>Team</span> 
+                        </h4>
+                        <!-- corpo centrale del pacchetto -->
+                        <div class="pacchetto-main clearfix">
+
+                            <!-- nome del pacchetto -->
+                            <h3 class="pacchetto-nome">
+                                Enterprise
+                            </h3>
+
+                            <!-- bottone del pacchetto -->
+                            <div class="container-btn" id="container-btn-finale">
+                                <a href="#" class="btn blue">Contatta l'ufficio vendite</a>
+                            </div>
+
+                            <!-- sottotitolo del pacchetto -->
+                            <h4 class="pacchetto-subtitle">
+                                Contatta l'ufficio vendite per i prezzi
+                            </h4>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>    
+                        </div>
+                    
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </section>
+
+        <!-- section contatta un partner -->
+        <section>
+            <div class="horizontal-center-2 clearfix">
+
+                <div class="containerImg-partner">
+                    <img src="img/partner.png" alt="partner foto">
+                </div>
+
+                <div class="containerText">
+                    <h3>
+                        Entra in contatto con un partner Dropbox
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit inventore excepturi corrupti aliquid! Amet velit rerum voluptates impedit cumque pariatur praesentium, voluptate assumenda quod debitis.
+                    </p>
+                    <div class="container-btn">
+                        <a href="" class="btn white">
+                            Trova un partner
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section schede 3x2 -->
+        <section class="schede">
+            <div class="horizontal-center-2">
+                <!-- titolo schede -->
+                <h2 class="titolo-schede">
+                    Esegui piu operazioni con Dropbox Buisness
+                </h2>
+
+                <!-- riga superiore -->
+                <div class="row-up clearfix">
+                    <!-- scheda 1 -->
+                    <div class="scheda">
+                        <!-- container immagine scheda 1 -->
+                        <div class="containerImg-scheda">
+                            <img src="img/business-feature-switching-tools.png" alt="immagine scheda dropbox 1">
+                        </div>
+                        <!-- container testo scheda 1 -->
+                        <div class="containerTxt-scheda">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit eum neque dignissimos architecto, fugiat culpa accusantium.accusantium. Nesciunt, quod a ipsam nemo fugiat iste maiores nostrum magni quam repellendus reprehenderit amet placeat optio ab repudiandae labore veritatis laborum! Molestias dicta, i</p>
+                        </div>
+                    </div>
+
+                    <!-- scheda 2 -->
+                    <div class="scheda mid">
+                        <!-- container immagine scheda 2 -->
+                        <div class="containerImg-scheda">
+                            <img src="img/business-feature-coordinate-it.png" alt="immagine scheda dropbox 2">
+                        </div>
+                        <!-- container testo scheda 2 -->
+                        <div class="containerTxt-scheda">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit eum neque dignissimos architecto, fugiat culpa accusantium.accusantium. Nesciunt, quod a ipsam nemo fugiat iste maiores nostrum magni quam repellendus reprehenderit amet placeat optio ab repudiandae labore veritatis laborum! Molestias dicta, i</p>
+                        </div>
+                    </div>
+
+                    <!-- scheda 3 -->
+                    <div class="scheda">
+                        <!-- container immagine scheda 3 -->
+                        <div class="containerImg-scheda">
+                            <img src="img/business-feature-multi-device.png" alt="immagine scheda dropbox 3">
+                        </div>
+                        <!-- container testo scheda 3 -->
+                        <div class="containerTxt-scheda">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit eum neque dignissimos architecto, fugiat culpa accusantium.accusantium. Nesciunt, quod a ipsam nemo fugiat iste maiores nostrum magni quam repellendus reprehenderit amet placeat optio ab repudiandae labore veritatis laborum! Molestias dicta, i</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                <!-- riga inferiore -->
+                <div class="row-down clearfix">
+                    <!-- scheda 4 -->
+                    <div class="scheda">
+                        <!-- container immagine scheda 4 -->
+                        <div class="containerImg-scheda">
+                            <img src="img/business-feature-integrations-it.png" alt="immagine scheda dropbox 4">
+                        </div>
+                        <!-- container testo scheda 4 -->
+                        <div class="containerTxt-scheda">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit eum neque dignissimos architecto, fugiat culpa accusantium.accusantium. Nesciunt, quod a ipsam nemo fugiat iste maiores nostrum magni quam repellendus reprehenderit amet placeat optio ab repudiandae labore veritatis laborum! Molestias dicta, i</p>
+                        </div>
+                    </div>
+
+                    <!-- scheda 5 -->
+                    <div class="scheda mid">
+                        <!-- container immagine scheda 5 -->
+                        <div class="containerImg-scheda">
+                            <img src="img/business-feature-send-files-it.png" alt="immagine scheda dropbox 5">
+                        </div>
+                        <!-- container testo scheda 5 -->
+                        <div class="containerTxt-scheda">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit eum neque dignissimos architecto, fugiat culpa accusantium.accusantium. Nesciunt, quod a ipsam nemo fugiat iste maiores nostrum magni quam repellendus reprehenderit amet placeat optio ab repudiandae labore veritatis laborum! Molestias dicta, i</p>
+                        </div>
+                    </div>
+
+                    <!-- scheda 6 -->
+                    <div class="scheda">
+                        <!-- container immagine scheda 6 -->
+                        <div class="containerImg-scheda">
+                            <img src="img/business-feature-security.png" alt="immagine scheda dropbox 6">
+                        </div>
+                        <!-- container testo scheda 6 -->
+                        <div class="containerTxt-scheda">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit eum neque dignissimos architecto, fugiat culpa accusantium.accusantium. Nesciunt, quod a ipsam nemo fugiat iste maiores nostrum magni quam repellendus reprehenderit amet placeat optio ab repudiandae labore veritatis laborum! Molestias dicta, i</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- section team affiliati -->
+        <section>
+            <div class="horizontal-center-2">
+                <div class="section-affiliates-title">
+                    <h2>
+                        Piu di 500.000 team <br> utilizzano Dropbox Buisness
+                    </h2>
+                    <div>
+                        <a href="#">Scopri di piu sui nostri clienti</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-affiliati clearfix">
+
+
+                <div class="affiliato-sx">
+                    <div class="affiliato desi">
+                        <img src="img/designit.svg" alt="desi">
+                    </div>
+                    <div class="affiliato asu">
+                        <img src="img/arizona_state_university.svg" alt="asu">
+                    </div>
+                    <div class="affiliato uf">
+                        <img src="img/university_of_florida.svg" alt="uf">
+                    </div>
+                    <div class="affiliato topps">
+                        <img src="img/topps.svg" alt="topps">
+                    </div>
+
+                </div>
+                
+                <div class="affiliato-note">
+                    <div class="affiliato-note-img">
+                        <img src="img/designit.svg" alt="desi">
+                    </div>
+                    <p>
+                        "<span>Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae deserunt quasi, accusamus vel facilis aperiam reprehenderit, perferendis adipisci doloremque ut, id minus dolorum aliquam fuga assumenda! Sed ut nihil et deleniti laborum ea at distinctio facilis. Doloremque, impedit dolorum aliquid dolores voluptatum vel libero doloribus ut neque animi cum tenetur!"
+                    </p>
+                    <div class="cit">
+                        Morten Thomsen, Global IT Lead
+                    </div>
+                </div>
+
+
+                <div class="affiliato-dx">
+                    <div class="affiliato wbr">
+                        <img src="img/world_bicycle_relief.svg" alt="wbr">
+                    </div>
+                    <div class="affiliato hearst">
+                        <img src="img/hearst_corp.svg" alt="hearst">
+                    </div>
+                    <div class="affiliato lonley">
+                        <img src="img/lonely_planet.svg" alt="lonley">
+                    </div>
+                    <div class="affiliato clear">
+                        <img src="img/clear_channel.svg" alt="clear">
+                    </div>
+                   
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- banner prova gratuita -->
+        <section class="prova-free-banner">
+            <div class="horizontal-center-2 clearfix">
+                <h2>Porta Dropbox Buisness nella tua azienda.</h2>
+                <div class="container-btn">
+                    <a href="#" class="btn white">
+                        Inizia la tua prova gratuita
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- section FAQ -->
+        <section class="container-faq">
+            <div class="horizontal-center-2">
+                <h3>Domande frequenti</h3>
+                
+                <div class="container-domande-faq clearfix">
+                    <div class="domanda">
+                        Quale e la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
+                    </div>
+                    <i class="fas fa-chevron-down frecciaGiuFaq"></i>
+                    <i class="fas fa-chevron-up frecciaSuFaq"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam quis! Vel culpa cupiditate porro corporis ut facere hic expedita ipsa, inventore minima dicta quos obcaecati. Facere sequi minus numquam possimus omnis cupiditate, alias iste placeat reiciendis. Animi, rerum consectetur? Eos, ex eligendi pariatur neque dolorem quo maxime quisquam nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis cum nemo a ullam, nobis saepe totam vel, deleniti nam dolorum dolores ipsa, eligendi sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, porro aspernatur consequatur nisi suscipit, magni aliquid ducimus enim laborum dignissimos aut voluptatum placeat at expedita similique repellendus est? Sint optio quibusdam nisi tempora voluptas autem nihil accusamus, modi quam vitae soluta eos et ex, voluptatum quis quidem vel similique. Totam!</p>
+                </div>
+
+                <div class="container-domande-faq clearfix">
+                    <div class="domanda">
+                        Quale e la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
+                    </div>
+                    <i class="fas fa-chevron-down frecciaGiuFaq"></i>
+                    <i class="fas fa-chevron-up frecciaSuFaq"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam quis! Vel culpa cupiditate porro corporis ut facere hic expedita ipsa, inventore minima dicta quos obcaecati. Facere sequi minus numquam possimus omnis cupiditate, alias iste placeat reiciendis. Animi, rerum consectetur? Eos, ex eligendi pariatur neque dolorem quo maxime quisquam nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis cum nemo a ullam, nobis saepe totam vel, deleniti nam dolorum dolores ipsa, eligendi sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, porro aspernatur consequatur nisi suscipit, magni aliquid ducimus enim laborum dignissimos aut voluptatum placeat at expedita similique repellendus est? Sint optio quibusdam nisi tempora voluptas autem nihil accusamus, modi quam vitae soluta eos et ex, voluptatum quis quidem vel similique. Totam!</p>
+                </div>
+
+                <div class="container-domande-faq clearfix">
+                    <div class="domanda">
+                        Quale e la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
+                    </div>
+                    <i class="fas fa-chevron-down frecciaGiuFaq"></i>
+                    <i class="fas fa-chevron-up frecciaSuFaq"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam quis! Vel culpa cupiditate porro corporis ut facere hic expedita ipsa, inventore minima dicta quos obcaecati. Facere sequi minus numquam possimus omnis cupiditate, alias iste placeat reiciendis. Animi, rerum consectetur? Eos, ex eligendi pariatur neque dolorem quo maxime quisquam nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis cum nemo a ullam, nobis saepe totam vel, deleniti nam dolorum dolores ipsa, eligendi sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, porro aspernatur consequatur nisi suscipit, magni aliquid ducimus enim laborum dignissimos aut voluptatum placeat at expedita similique repellendus est? Sint optio quibusdam nisi tempora voluptas autem nihil accusamus, modi quam vitae soluta eos et ex, voluptatum quis quidem vel similique. Totam!</p>
+                </div>
+                
+                <div class="container-domande-faq clearfix">
+                    <div class="domanda">
+                        Quale e la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
+                    </div>
+                    <i class="fas fa-chevron-down frecciaGiuFaq"></i>
+                    <i class="fas fa-chevron-up frecciaSuFaq"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, laboriosam quis! Vel culpa cupiditate porro corporis ut facere hic expedita ipsa, inventore minima dicta quos obcaecati. Facere sequi minus numquam possimus omnis cupiditate, alias iste placeat reiciendis. Animi, rerum consectetur? Eos, ex eligendi pariatur neque dolorem quo maxime quisquam nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis cum nemo a ullam, nobis saepe totam vel, deleniti nam dolorum dolores ipsa, eligendi sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, porro aspernatur consequatur nisi suscipit, magni aliquid ducimus enim laborum dignissimos aut voluptatum placeat at expedita similique repellendus est? Sint optio quibusdam nisi tempora voluptas autem nihil accusamus, modi quam vitae soluta eos et ex, voluptatum quis quidem vel similique. Totam!</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- footer main -->
+        <section class="footer-main">
+            <!-- footer nav -->
+            <div class="horizontal-center clearfix" >
+                <div class="col-footer">
+                    <h3>Dropbox</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Applicazione desktop</a>
+                        </li>
+                        <li>
+                            <a href="#">Perche Dropbox</a>
+                        </li>
+                        <li>
+                            <a href="#">Piani</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Funzioni</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-footer">
+                    <h3>Dropbox</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Applicazione desktop</a>
+                        </li>
+                        <li>
+                            <a href="#">Perche Dropbox</a>
+                        </li>
+                        <li>
+                            <a href="#">Piani</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Funzioni</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-footer">
+                    <h3>Dropbox</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Applicazione desktop</a>
+                        </li>
+                        <li>
+                            <a href="#">Perche Dropbox</a>
+                        </li>
+                        <li>
+                            <a href="#">Piani</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Funzioni</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-footer">
+                    <h3>Dropbox</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Applicazione desktop</a>
+                        </li>
+                        <li>
+                            <a href="#">Perche Dropbox</a>
+                        </li>
+                        <li>
+                            <a href="#">Piani</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Funzioni</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-footer">
+                    <h3>Dropbox</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Applicazione desktop</a>
+                        </li>
+                        <li>
+                            <a href="#">Perche Dropbox</a>
+                        </li>
+                        <li>
+                            <a href="#">Piani</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Funzioni</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- footer lingua -->
+            <div class="horizontal-center" >
+                <div class="lingua">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>Italiano</span>
+                    <a href="#"><i class="fas fa-chevron-up"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
